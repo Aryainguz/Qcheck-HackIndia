@@ -6,15 +6,6 @@
 .pnp.js
 .yarn/install-state.gz
 
-
-app/add
-app/api
-app/Components
-app/login
-app/register
-app/verify
-app/verifycode
-app/verifyproduct
 config
 node_module
 public
