@@ -155,7 +155,7 @@ const Page = () => {
       <>
         <div className="h-[90vh] flex justify-center items-center m-auto flex-col">
           <Image
-            src="https://lordicon.com/icons/wired/flat/38-error-cross-simple.gif"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgY6bZ4w9Lhugtn1bOnhq8P7cvovowVDW-rg&s"
             alt="Product is invalid!"
             width={300}
             height={300}

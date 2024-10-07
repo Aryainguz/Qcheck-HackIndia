@@ -1,12 +1,12 @@
-import React from 'react'
-import FetchDataofProduct from '../components/FetchDataofProduct'
+import React from "react";
+import FetchDataofProduct from "../Components/FetchDataofProduct";
 
 function page() {
   return (
     <>
-    <FetchDataofProduct/>
+      <FetchDataofProduct />
     </>
-  )
+  );
 }
 
-export default page
+export default page;
