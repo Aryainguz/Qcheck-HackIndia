@@ -9,8 +9,6 @@
 
 app/add
 app/api
-app/Components
-app/login
 app/register
 app/verify
 app/verifycode
