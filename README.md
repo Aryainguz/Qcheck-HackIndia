@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# _QCheck - Blockchain-Powered Medicine Verification System_
 
-## Getting Started
+_QCheck_ is a blockchain-based solution designed to tackle the global issue of counterfeit and substandard medicines. Using _QR codes_ and _Ethereum blockchain_, QCheck enables stakeholders and consumers to verify the authenticity and safety of medicines with just a scan or click. This system ensures transparency and trust in the supply chain, helping prevent counterfeit products from reaching patients.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## _Features_
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- _QR Code Authentication_: Each medicine product has a unique QR code that can be scanned or clicked to instantly verify its authenticity.
+- _Blockchain Transparency_: QCheck leverages the Ethereum blockchain to record every step of the supply chain in a tamper-proof, decentralized manner.
+- _Real-Time Tracking_: Track medicines from manufacturer to end consumer in real-time, providing transparency and enhanced security in the distribution chain.
+- _Anti-Counterfeit Protection_: By recording all interactions on the blockchain, QCheck minimizes the risk of counterfeit products entering the supply chain.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## _Tech Stack_
 
-## Learn More
+- _Frontend_: [Next.js](https://nextjs.org/) - A React framework for fast, server-side rendering and easy routing.
+- _Blockchain_: [Ethereum](https://ethereum.org/en/) - A decentralized platform for smart contracts.
+- _Smart Contracts_: [Solidity](https://soliditylang.org/) - A contract-oriented programming language used for implementing smart contracts.
+- _Web3 Integration_: [Ethers.js](https://docs.ethers.io/v5/) - A library for interacting with the Ethereum blockchain and smart contracts.
+- _QR Code Generation_: Used to assign unique codes to medicines for authentication.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## _Installation_
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. Clone the repository:
 
-## Deploy on Vercel
+   bash
+   git clone https://github.com/Aryainguz/Qcheck-HackIndia.git
+   cd qcheck
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+   bash
+   npm install
+
+3. Set up the environment variables in a .env.local file:
+
+4. Deploy the smart contract using Hardhat or Truffle:
+
+   bash
+   npx hardhat run scripts/deploy.js --network rinkeby
+
+5. Run the development server:
+
+   bash
+   npm run dev
+
+6. Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+---
+
+## _Future Enhancements_
+
+- _AI and IoT integration_ for more detailed supply chain analytics.
+- Expanding QCheck to other high-risk products such as food and electronics.
+- Improved scalability and gas optimizations for smart contract interactions.
+
+---
+
+By Team - The Xiting Way
